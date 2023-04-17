@@ -6,3 +6,4 @@ Integrantes:
 Jesus Domingue,
 Diego Fernández,
 Antonela Elizabet Ferreyra
+Nahir Chufardi,
