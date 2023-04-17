@@ -5,5 +5,6 @@ Diseño de pagina web de bailes.
 Integrantes: 
 Jesus Domingue,
 Diego Fernández,
-Antonela Elizabet Ferreyra
+Antonela Elizabet Ferreyra,
 Nahir Chufardi,
+Rosa Romina Egea
