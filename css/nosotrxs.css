@@ -73,8 +73,6 @@ main{
 /*SECCION 1*/
 .section-1{
   width: 100%;
-  
-  
 }
 
 .section-1 h2{
@@ -94,7 +92,12 @@ main{
   line-height: 1.5;
   /*font-family: ;*/
   font-size: 20px;
+  
+}
 
+.section-1 img{
+  width: 100%;
+  border-radius: 25px;
 }
 
 /*SECTION 2*/
@@ -206,13 +209,19 @@ main{
   color: #ffffff;
   font-size: 13px;
 }
+
+.footer a{
+  text-decoration: none;
+}
+
 .icon-footer{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .fa-brands{
-  font-size: 35px; /*tamaño iconos*/
+  font-size: 35px; 
   margin: 10px;
   background: #d1caca;
   width: 50px;
