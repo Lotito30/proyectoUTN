@@ -1,43 +1,77 @@
 /* font-family: 'Open Sans', sans-serif;
 */
-
+main{
+    text-align: center;
+    font-weight: bolder;
+  }
 body {
+    background-color: rgba(32, 192, 192, 0.877);
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 20px;
-}
-
-header {
-    background-color: rgba(32, 192, 192, 0.877);
-    padding: 16px 0;
-}
-
-header h1{
+  }
+  
+  /*HEADER*/
+  header{
+    display: flex;
+    height: 96px;
+    border-bottom:  1px solid rgba(128, 128, 128, 0.63); 
+  }
+  
+  header img{
+    width: 170px;
+    height: 118px;
+    margin: 10px 0;
+  }
+  
+  header h1{
     color:black;
-    font-size: 40px;
-    font-weight: 100;
-    font-style: normal;
+    font-size: 30px;
     display: inline-block;
     position: absolute;
-    bottom: auto;
-    margin-left: 10px;
-}
-
-header nav ul {
+    margin: 72px 0;
+  }
+  
+  /*NAV*/
+  header nav{
+    width: 100%;
+    margin: 37px 25px 0;
+    display: flex;
+    justify-content: end;
+  
+  }
+  
+  header nav ul {
     list-style: none;
     display: flex;
-}
-
-header nav ul li {
+  }
+  
+  header nav ul li {
     flex-grow: 1;
-}
-
-header nav ul li a {
+  }
+  
+  .bailes{
+    background-color: rgb(255, 184, 0);
+    height: 40px;
+    border-radius: 125px;
+  }
+  
+  header nav ul li a {
     color:black;
     text-decoration: none;
     display: block;
     text-align: center;
-}
+    font-style: italic;
+    padding: 10px;
+  }
+  
+  header nav ul li a:hover{
+    color: rgba(0, 0, 0, 0.4);
+  }
+  main{
+    margin: 0 10%;
+  }
+
 /*FOOTER*/
 .footer{
     background: black;
