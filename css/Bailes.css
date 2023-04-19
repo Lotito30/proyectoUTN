@@ -1,0 +1,56 @@
+
+body {
+    background-color:  rgba(32, 192, 192, 0.877);
+    font-family: 'Franklin Gothic Medium';
+    font-size: 18px;
+    line-height: 20px;
+   
+}
+
+body h1 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 35px;
+}
+
+body h2 {
+    font-family: "Cambria";
+    font-size: 25px;
+    line-height: 20px;
+    }
+body h3 {
+    font-family:'Cambria';
+    font-size: 25px;
+    line-height: 20px;
+}
+
+body h4 {
+    font-family: 'Cambria';
+    font-size: 25px;
+    line-height: 20px;
+}
+
+header {
+    background-color: rgba(32, 192, 192, 0.877);
+    padding: 16px 0;
+}
+
+header h1{
+    color:black;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: normal;
+    display: inline-block;
+    position: absolute;
+    bottom: auto;
+    margin-left: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    flex-grow: 1;
+}
+
