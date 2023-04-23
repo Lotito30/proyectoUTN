@@ -3,8 +3,6 @@
   margin: 0;
 }
 html{
-  
-
   box-sizing: border-box;
 }
 a:hover{
@@ -104,7 +102,6 @@ nav a {
 }
 
 .fondoImagenDos {
-  margin-top: 10vw;
   transform: rotate(70deg);
   padding: 5vw;
   background-color: rgba(148, 243, 255, 0.6);
@@ -115,7 +112,7 @@ nav a {
   grid-template-rows: repeat(3,25%); 
   grid-gap: 5vw; 
   position: relative;
-  top:4vw;
+  top:15vw;
   animation: light 4s linear infinite;
 }
 
@@ -132,7 +129,7 @@ nav a {
   text-transform: uppercase;
   display:flex;
   justify-content: center;
-  margin:10vw 0 4vw 0;
+  margin:20vw 0 4vw 0;
 }
 .tituloh1{
   text-shadow: 0.2vw 0.2vw 0.4vw rgba(0, 0, 0,0.4);
@@ -170,11 +167,17 @@ nav a {
   font-size:1.5vw;
   text-align: justify;
 }
+
 .item p::before {
-  content: '" ';
+  content: '" E';
 }
 .item p::after {
   content: ' "';
+}
+.item p::first-letter,
+.item p:last-child::after{
+  font-size: 2vw;
+  font-weight: bold;
 }
 /*FOOTER*/
 .footer{
@@ -263,22 +266,111 @@ nav a {
 
 /* MEDIA QUERY */
 
-@media only screen and (max-width:1200px){
-  .logo{
-    width:16%;
+@media only screen and (max-width:950px){
+  header {
+    padding: 8% 0 0 0;
   }
-  nav a{
-    font-size:1.5vw;
-  }
-} 
+.logo{
+    width:30%;
+}
+.fondoImagen {
+  padding: 28vw;
+  top:20vw;
+  left:5vw;
+}
+.containerLetras {
+  top:5vw;
+  left:6%;
+}
+.containerLetras h1 {
+  text-indent: -3vw;
+  text-shadow: 3px 3px 4px rgba(255, 255, 255, 1);
+  font-size: 5vw;
+}
+.containerLetras p {
+  text-indent: 3vw;
+  font-size: 4vw;
+  color:white;
+}
+.containerLetras a {
+  text-align: center;
+  margin-left: -2.5vw;
+  margin-top: 1vw;
+  font-size: 2.5vw;
 
-@media only screen and (max-width:800px){
-  .logo{
-    width:18%;
-  }
-  nav a{
-    font-size:1.8vw;
-  }
+}
+.imagenBailarines {
+  width: 66vw;
+  top: 18%;
+  left: -6%;
+}
+nav a{
+  font-size:3vw;
+}
+.fondoImagenDos{
+  margin-top: 30vw;
+  padding: 10vw;
+  top:8vw;
+}
+.imagen{
+  width:17vw;
+  height:17vw;
+}
+.tituloClases{
+  margin:20vw 0 4vw 0;
+}
+.tituloh1{
+  font-size: 3.2vw;
+}
+.containerClases{
+
+  grid-template-columns: repeat(1, 1fr);
+  margin:8vw 0vw; 
+  width:99%;
+}
+.item{
+  padding:2vw;
+  width:65%;
+  position: relative;
+  left:15%;
+}
+.item h1{
+  font-size: 4vw;
+} 
+.item p{
+  font-size:3.5vw;
+}
+.item p::first-letter{
+  font-size: 4vw;
+  font-weight: bold;
+}
+.item p:last-child::after{
+  font-size: 4vw;
+  font-weight: bold;
+}
+.item p::before {
+  content: '" E';
+}
+.item p::after {
+  content: ' "';
+}
+.footer{
+  padding:4% 0;
+}
+.footer h3{
+  color: #ffffff;
+  font-size: 3.5vw;
+}
+.footer p{
+  color: #ffffff;
+  font-size: 2.5vw;
+}
+.fa-brands{
+  font-size: 4vw; 
+  margin: 2vw;
+  width: 6vw;
+  height: 6vw;
+}
 } 
 
 
