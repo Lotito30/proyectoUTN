@@ -3,8 +3,8 @@ Grupo2 c54
 Diseño de pagina web de bailes.
 
 Integrantes: 
-Jesus Dominguez (index)\n
-Diego Fernández (Nosotrxs)\n
-Antonela Elizabet Ferreyra (Bailes)\n
-Nahir Chufardi (Instalaciones)\n
+Jesus Dominguez (index)  
+Diego Fernández (Nosotrxs)  
+Antonela Elizabet Ferreyra (Bailes)  
+Nahir Chufardi (Instalaciones)  
 Rosa Romina Egea (Aranceles)
