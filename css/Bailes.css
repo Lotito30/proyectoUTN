@@ -3,13 +3,20 @@ body {
     font-family: 'Franklin Gothic Medium';
     font-size: 18px;
     line-height: 20px;
-    text-align: center;
+   
+}
+/*prueba*/
+.Logo {
+  width: 16%;
+  position: absolute;
+  top: 0.5vw;
 }
 
 body h1 {
     font-family: 'Franklin Gothic Medium';
     font-size: 35px;
     text-decoration: underline;
+    text-align: center;
 }
 
 body h2 {
@@ -17,6 +24,7 @@ body h2 {
     font-size: 25px;
     line-height: 20px;
     text-decoration: underline;
+    text-align: center;
     }
 
 body h3 {
@@ -24,6 +32,7 @@ body h3 {
     font-size: 25px;
     line-height: 20px;
     text-decoration: underline;
+    text-align: center;
 }
 
 body h4 {
@@ -31,7 +40,14 @@ body h4 {
     font-size: 25px;
     line-height: 20px;
     text-decoration: underline;
+    text-align: center;
 }
+
+.texto {
+text-align: center;
+}
+
+
 
 header {
     background-color: rgba(32, 192, 192, 0.877);
