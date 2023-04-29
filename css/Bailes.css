@@ -5,7 +5,7 @@ body {
     line-height: 20px;
    
 }
-/*prueba*/
+/*prueba Logo*/
 .Logo {
   width: 16%;
   position: absolute;
@@ -50,8 +50,9 @@ text-align: center;
 
 
 header {
-    background-color: rgba(32, 192, 192, 0.877);
-    padding: 16px 0;
+  display: flex;
+  height: 96px;
+  border-bottom:  1px solid rgba(128, 128, 128, 0.63);
 }
 
 header h1{
