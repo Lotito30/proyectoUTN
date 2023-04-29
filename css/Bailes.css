@@ -16,6 +16,7 @@ body h2 {
     font-size: 25px;
     line-height: 20px;
     }
+
 body h3 {
     font-family:'Cambria';
     font-size: 25px;
@@ -27,6 +28,11 @@ body h4 {
     font-size: 25px;
     line-height: 20px;
 }
+
+body {
+  text-align: center;
+}
+
 
 header {
     background-color: rgba(32, 192, 192, 0.877);
@@ -84,8 +90,6 @@ main{
 }
 
 
-
-/*FOOTER*/
 .footer{
     background: black;
     width: 100%;
