@@ -12,14 +12,14 @@ body {
   top: 0.5vw;
 }
 
-body h1 {
+main h1 {
     font-family: 'Franklin Gothic Medium';
     font-size: 35px;
     text-decoration: underline;
     text-align: center;
 }
 
-body h2 {
+main h2 {
     font-family: "Cambria";
     font-size: 25px;
     line-height: 20px;
@@ -27,7 +27,7 @@ body h2 {
     text-align: center;
     }
 
-body h3 {
+main h3 {
     font-family:'Cambria';
     font-size: 25px;
     line-height: 20px;
@@ -35,7 +35,7 @@ body h3 {
     text-align: center;
 }
 
-body h4 {
+main h4 {
     font-family: 'Cambria';
     font-size: 25px;
     line-height: 20px;
