@@ -101,10 +101,6 @@ header nav ul li a {
 header nav ul li a:hover{
   color: rgba(0, 0, 0, 0.4);
 }
-main{
-  margin: 0 10%;
-}
-
 
 .footer{
     background: black;
@@ -163,13 +159,14 @@ main{
     background: #1E4595;
     color: #ffffff;
   }
-  
+
+    .fa-twitter{
+    color: #358de6;
+    background-color: #ffffff;
+  }
+
   .fa-twitter:hover{
     background: linear-gradient(to right top, #42a9ec, #358de6);
     color: #ffffff;
   }
-  
-  .fa-twitter{
-    color: #358de6;
-    background-color: #ffffff;
-  }
+ 
