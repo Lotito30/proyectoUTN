@@ -1,0 +1,22 @@
+/* 
+  COPIAR TODO Y PEGAR EN SU ARCHIVO CSS
+*/
+
+/* NAVBAR */
+  .navbarBaile{
+    background-color:rgb(0, 214, 214) !important;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    text-align: right;
+  }
+  .nav-link:hover{
+    font-size: 1.3rem;
+  }
+  .boton{
+    background-color: #ffb800 !important;
+  }
