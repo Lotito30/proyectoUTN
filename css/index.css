@@ -256,12 +256,7 @@ hr{
 /* MEDIA QUERY */
 
 @media only screen and (max-width:950px){
-  header {
-    padding: 8% 0 0 0;
-  }
-.logo{
-    width:30%;
-}
+
 .fondoImagen {
   padding: 28vw;
   top:20vw;
@@ -292,9 +287,6 @@ hr{
   width: 66vw;
   top: 18%;
   left: -6%;
-}
-nav a{
-  font-size:3vw;
 }
 .fondoImagenDos{
   margin-top: 30vw;
