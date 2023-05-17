@@ -97,11 +97,11 @@ header{
   border-radius: 10%;
   z-index: 2;
   background: transparent;
-  transition: 1.2s;
+  transition: .5s;
 }
 
 .imagenBailarines:hover{
-  transform: rotate(10deg);
+  transform: scaleX(-1)
 }
 
 .containerLetras {
@@ -321,22 +321,22 @@ header{
   100% {
     box-shadow: 0 0 0 #fff, 0 0 0 #fff,  0 0 0 #fff, -1vw -1vw 1vw #fff;
   }
-  
-}
 
+}
 @keyframes circulo {
   0%{
-    clip-path: circle(600px at right 815px);
+    clip-path: circle(550px at right 800px);
   }
 
   50%{
-    clip-path: circle(600px at right 805px);
+    clip-path: circle(560px at right 805px);
   } 
   100%{
-    clip-path: circle(600px at right 815px);
+    clip-path: circle(550px at right 800px);
   } 
 }
 
+/* FIN KEYFRAMES */
 /* MEDIA QUERY */
 
 @media(max-width:991px){
@@ -362,6 +362,18 @@ html{
   top:0;
 }
 
+@keyframes circulo {
+  0%{
+    clip-path: circle(510px at right 815px);
+  }
+
+  50%{
+    clip-path: circle(490px at right 805px);
+  } 
+  100%{
+    clip-path: circle(510px at right 815px);
+  } 
+}
 .containerClases{
   grid-template-columns: repeat(1, 1fr);
   margin:8vw 0vw; 
@@ -405,8 +417,17 @@ html{
     height: 190px;
   }
 
-  .circulo{
-  clip-path: circle(450px at right 800px );
+@keyframes circulo {
+  0%{
+    clip-path: circle(510px at right 890px);
+  }
+
+  50%{
+    clip-path: circle(490px at right 900px);
+  } 
+  100%{
+    clip-path: circle(510px at right 890px);
+  } 
 }
 }
 
