@@ -325,32 +325,39 @@ header{
 }
 @keyframes circulo {
   0%{
-    clip-path: circle(550px at right 800px);
+    clip-path: circle(30rem at right 50rem);
   }
 
   50%{
-    clip-path: circle(560px at right 805px);
+    clip-path: circle(29.5rem at right 50rem);
   } 
   100%{
-    clip-path: circle(550px at right 800px);
+    clip-path: circle(30rem at right 50rem);
   } 
 }
 
 /* FIN KEYFRAMES */
 /* MEDIA QUERY */
-
-@media(max-width:991px){
-
+@media(max-width:1024px){
 .circulo{
-  clip-path: circle(500px at right 800px );
-}
+     background-color: orange;
+    }
 } 
 
+@media(max-width:991px){
+.circulo{
+     background-color: blue;
+    }
+} 
+
+/* MEDIA 768PX */
 @media(max-width:768px){
 html{
   font-size: 80%;
 }
-
+.circulo{
+     background-color: green;
+    }
 .fondoImagen {
   width:200px;
   height: 200px;
@@ -362,18 +369,6 @@ html{
   top:0;
 }
 
-@keyframes circulo {
-  0%{
-    clip-path: circle(510px at right 815px);
-  }
-
-  50%{
-    clip-path: circle(490px at right 805px);
-  } 
-  100%{
-    clip-path: circle(510px at right 815px);
-  } 
-}
 .containerClases{
   grid-template-columns: repeat(1, 1fr);
   margin:8vw 0vw; 
@@ -402,13 +397,13 @@ html{
 }
 }
 
-@media(max-width:500px){
+/* FIN MEDA 768 */
+
+@media(max-width:420px){
   html{
     font-size: 60%;
   }
-
   .imagenBailarines {
-
     width: 290px;
     left:-5rem;
   }
@@ -416,17 +411,20 @@ html{
     width:190px;
     height: 190px;
   }
+  .circulo{
+     background-color: red;
+    }
+  @keyframes circulo {
 
-@keyframes circulo {
   0%{
-    clip-path: circle(510px at right 890px);
+    clip-path: circle(25rem at right 60rem);
   }
 
   50%{
-    clip-path: circle(490px at right 900px);
+    clip-path: circle(24rem at right 60rem);
   } 
   100%{
-    clip-path: circle(510px at right 890px);
+    clip-path: circle(25rem at right 60rem);
   } 
 }
 }
