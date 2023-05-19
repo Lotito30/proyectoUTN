@@ -18,21 +18,22 @@ body {
 }
 
 section:nth-child(even) {
-  background-color: #ddd9d9;
+  background-color: #000000;
 }
 
 header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  background-color: rgb(0, 214, 214);
-  width: 100%;
   padding: 0 1%;
-  align-items: center;
-  display: flex;
-  z-index: 3;
+  background-color: rgb(0, 214, 214);
   box-shadow: var(--box-shadow);
+  z-index: 3;
 }
 
 .container {
@@ -48,6 +49,7 @@ header {
 .navbar-brand img {
   width: 150px;
   height: 100px;
+  object-fit: contain; 
 }
 
 .nav-link {
@@ -165,42 +167,50 @@ header {
 }
 
 .content {
-  background-color: rgb(3, 6, 0);
-  width: 40%;
+  background-color: rgb(255, 255, 255);
+  width: 90%;
   padding: 1.5rem 1rem;
   border-radius: 12px;
   line-height: 1.5;
   color: #eee;
 }
 
-.segunda h3 {
+.segunda .content h3 {
   font-size: 1.5rem;
-  color: rgba(148, 243, 255, 1);
+  color: rgba(0, 214, 214,1);
 }
 
-.segunda h1 {
+.segunda .content h1 {
   font-size: 3rem;
+  color:#666;
 }
-
+.recuadroSecundario{
+  width:95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .fondoImagenDos {
+  width: 500px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
   transform: rotate(70deg);
-  padding: .1rem;
   background-color: rgba(148, 243, 255, 0.6);
   border-radius: 3rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 25%);
-  gap: 3rem;
   animation: light 4s linear infinite;
   z-index: 3;
 }
-
 .imagen {
   box-shadow: 0.3rem 0.3rem 0.4rem #454545;
-  border-radius: 1rem;
+  border-radius: .5rem;
   transform: rotate(-70deg);
-  width: 1rem;
-  height: 1rem;
+  width: 10rem;
+  height: 10rem;
 }
 
 /* fin segunda seccion */
@@ -364,6 +374,13 @@ header {
   html{
     font-size: 70%;
   }
+  header{
+    height:70px;
+  }
+  .navbar-brand img{
+    width: 100px;
+    height: 80px;
+  }
   .circulo{
     top:0;
   }
@@ -376,6 +393,10 @@ header {
     top: 0;
     left: -6rem;
   }
+  .fondoImagenDos{
+    width:350px;
+    gap:3rem;
+  }
 }
 
 /* FIN MEDA 768PX */
@@ -385,9 +406,14 @@ header {
   html {
     font-size: 60%;
   }
+  header{
+    height:70px;
+  }
   .navbar-brand img{
-    width:110px;
-    height: 80px;
+    height: 65px;
+  }
+  .container-principal{
+    justify-content: space-between;
   }
 
   .imagenBailarines {
@@ -399,19 +425,30 @@ header {
     width: 170px;
     height: 170px;
   }
-
+  .fondoImagenDos{
+    width: 260px;
+    height: 340px;
+    gap:2rem;
+  }
+  .imagen{
+    width:9rem;
+    height:9rem;
+  }
 }
 
-@media(max-width:321px) {
+@media(max-width:376px) {
   html{
   font-size: 45%;
   }
+  header{
+    height:80px;
+  }
   .navbar-brand img{
     width:100px;
-    height: 70px;
+    height: 80px;
   }
   .container-principal{
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .circulo{
     width:90%;
@@ -423,6 +460,16 @@ header {
   .fondoImagen {
     width: 140px;
     height: 140px;
+  }
+  .fondoImagenDos{
+    width: 200px;
+    height: 240px;
+    gap:2rem;
+
+  }
+  .imagen{
+    width:8.5rem;
+    height:8.5rem;
   }
 
 }
