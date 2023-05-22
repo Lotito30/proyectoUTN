@@ -16,6 +16,7 @@ tercera{
 }
 
 html{
+  font-size: 70%;
   overflow-x: hidden;
   scroll-padding-top: 5.5rem;
   scroll-behavior: smooth;
@@ -44,6 +45,7 @@ header {
 .conteiner {
   height: 100vh;
   width: 95%;
+  margin:0 auto;
   z-index: 2;
   display: flex;
   justify-content: center;
@@ -85,27 +87,27 @@ header {
 /* seccionprincipal */
 .container-content{
   display: flex;
-  align-items: center;
-  justify-content: start;
-  width: 80%;
-  gap: 7rem;
+    justify-content: space-around;
+    width: 90%;
+    align-items: center;
+    gap: 3rem;   
 }
 .fondoImagen {
-  width: 400px;
-  height: 400px;
+  margin-top: 7rem;
+  width: 27rem;
+  height: 27rem;
   background-color: rgba(148, 243, 255, 0.6);
   border-radius: 3rem;
-  transform: rotate(20deg);
+  transform: rotate(10deg);
   z-index: 1;
   animation: light 4s linear infinite;
 }
 
 .imagenBailarines {
   position: absolute;
-  width:600px;
-  top:1rem;
-  left: -6.5rem;
-  transform: rotate(-20deg);
+  width: 40rem;
+  top: 0.4rem;
+  left: -7.5rem;
   z-index: 2;
   background: transparent;
   transition: .5s;
@@ -149,26 +151,27 @@ header {
 .content {
   text-align: center;
   background-color: rgb(255, 255, 255);
-  width: 70%;
+  width: 95%;
   padding: 1.5rem 1rem;
   border-radius: 2rem;
   line-height: 1.3;
   color: #eee;
+  box-shadow: 0 .3rem .9rem rgba(0, 0, 0, .5);
 }
 
 .content h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgb(3, 145, 145);
 }
 
 .content h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color:#666;
 }
 
 .fondoImagenDos {
-  width: 500px;
-  height:99vh;
+  width: 40rem;
+  height: 85vh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-content: space-evenly;
@@ -185,8 +188,8 @@ header {
   box-shadow: 0.3rem 0.3rem 0.4rem #454545;
   border-radius: .5rem;
   transform: rotate(-70deg);
-  width: 11rem;
-  height: 11rem;
+  width: 13rem;
+  height: 13rem;
 }
 
 /* fin segunda seccion */
@@ -198,20 +201,18 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
-  border-radius: 3rem;
-  justify-items: center;
   align-items: center;
   width:95%;
+  gap: 2rem;
+  justify-items: center;
 }
 
 .item {
-  width:400px;
-  height: 450px;
-  background-color: rgba(148, 243, 255, 1);
+  height: auto;
+  background: linear-gradient(#fff,#d3d3d3);
   border-radius: 3rem;
-  box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 .3rem .9rem rgba(0, 0, 0, .5);
   padding: 1.5rem;
-  font-style: italic;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -220,26 +221,18 @@ header {
   margin-bottom: .5rem;
   font-size: 2.2rem;
   text-align: center;
+  font-weight: bold;
 }
 
 .item p {
   margin-top: .5rem;
-  font-size: 1.6rem;
+  font-size: 2rem;
   text-transform: none;
   text-align: center;
-  line-height: 1.5;
   font-weight: 500;
+  font-style: italic;
 }
 
-.item p::before {
-  content: 'Es';
-}
-
-.item p::first-letter,
-.item p:last-child::after {
-  font-size: 3rem;
-  font-weight: bolder;
-}
 
 /*FOOTER*/
 .footer {
@@ -250,12 +243,12 @@ header {
 
 .footer h3 {
   color: #ffffff;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
 }
 
 .footer p {
   color: #ffffff;
-  font-size: 1vw;
+  font-size: 1rem;
 }
 
 .footer a {
@@ -269,11 +262,11 @@ header {
 }
 
 .fa-brands {
-  font-size: 2vw;
-  margin: 1vw;
+  font-size: 2rem;
+  margin: 1rem;
   background: #fff;
-  width: 3vw;
-  height: 3vw;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -312,19 +305,19 @@ header {
 
 @keyframes light {
   0% {
-    box-shadow: -1vw -1vw 1vw #fff, 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #fff;
+    box-shadow: -1rem -1rem 1rem #fff, 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #fff;
   }
 
   25% {
-    box-shadow: 0 0 0 #fff, 1vw 1vw 1vw #fff, 0 0 0 #fff, 0 0 0 #fff;
+    box-shadow: 0 0 0 #fff, 1rem 1rem 1rem #fff, 0 0 0 #fff, 0 0 0 #fff;
   }
 
   50% {
-    box-shadow: 0 0 0 #fff, 0 0 0 #fff, 1vw 1vw 1vw #fff, 0 0 0 #fff;
+    box-shadow: 0 0 0 #fff, 0 0 0 #fff, 1rem 1rem 1rem #fff, 0 0 0 #fff;
   }
 
   100% {
-    box-shadow: 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #fff, -1vw -1vw 1vw #fff;
+    box-shadow: 0 0 0 #fff, 0 0 0 #fff, 0 0 0 #fff, -1rem -1rem 1rem #fff;
   }
 
 }
@@ -332,36 +325,18 @@ header {
 /* FIN KEYFRAMES */
 
 /* MEDIA QUERY */
-@media(max-width:992px) {
 
-}
 /* MEDIA 768PX */
 @media(max-width:769px) {
+  html{
+    font-size: 65%;
+  }
   
   .circulo{
-    background-color: red;
-    top:0;
+
+    clip-path: circle(45% at right 100%);
   }
-  .fondoImagen {
-    width: 230px;
-    height: 230px;
-  }
-  .imagenBailarines {
-    width: 350px;
-    top: 0;
-    left: -6rem;
-  }
-  .content{
-    margin-top: 5rem;
-  }
-  .fondoImagenDos{
-    width:500px;
-    height:54vh;
-  }
-  .imagen{
-    height: 12rem;
-    width: 12rem;
-  }
+
 }
 
 /* FIN MEDA 768PX */
@@ -369,77 +344,47 @@ header {
 /* media 46px */
 @media(max-width:426px) {
   html {
-    font-size: 60%;
+    font-size: 55%;
+  }
+  .navbar-brand img{
+    width: 130px;
+    height: 90px;
   }
   .circulo{
-    width: 100%;
-    clip-path: circle(43% at right 100%);
+    clip-path: circle(55% at right 100%);
   }
-  .container-principal{
-    justify-content: space-between;
+  .container-content{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    height: 92vh;
+    justify-content: start;
   }
 
-  .imagenBailarines {
-    width: 270px;
-    left: -6rem;
-  }
-  
-  .fondoImagen {
-    width: 170px;
-    height: 170px;
-  }
-  .fondoImagenDos{
-    transform: rotate(0);
-    height: 70vh;
-    align-content: stretch;
-  }
+  .fondoImagenDos,
   .imagen{
     transform: rotate(0);
-    width:18.5rem;
-    height:20rem;
+  }
+
+  .containerClases{
+    grid-template-columns: repeat(1,80%);
+    height: auto;
+    padding: 2rem 0;
+    justify-content: center;
   }
 }
-
-@media(max-width:376px) {
-
+   
+@media(max-width:321px) {
+  .fondoImagen{
+    transform: scale(.9);
+  }
+  .imagenBailarines{
+    transform: scale(1);
+  }
+  .containerLetras{
+    transform: scale(.9);
+  }
   .circulo{
-    width: 100%;
-    clip-path: circle(35% at right 100%);
-  }
-  .imagenBailarines {
-    width: 390px;
-    left:-9rem;
-  }
-  .containerLetras h1{
-    font-size: 6rem;
-  }
-  .containerLetras p{
-    font-size: 3rem;
-  }
-  .containerLetras a{
-    font-size: 2rem;
-  }
-  .botonBailes {
-    padding: 1rem 1.5rem;
-    width: 10rem;
-    color: black;
-    
-  }
-  .fondoImagen {
-    width: 75vw;
-    height: 250px;
-  }
-  .container-principal{
-    flex-direction: column;
-    justify-content: center;
-    gap: 5rem;
-  }
-  .fondoImagenDos{
-    width: 95vw;
-
-  }
-  .imagen{
-    width:12rem;
-    height:12rem;
+    clip-path: circle(65% at right 100%);
   }
 }
