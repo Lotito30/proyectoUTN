@@ -372,6 +372,12 @@ header {
     width: 130px;
     height: 90px;
   }
+  .containerClases{
+    grid-template-columns: repeat(1,80%);
+    height: auto;
+    padding: 2rem 0;
+    justify-content: center;
+  }
 }
 /* media 426px */
 @media(max-width:426px) {
@@ -383,12 +389,7 @@ header {
     clip-path: circle(55% at right 100%);
   }
   
-  .containerClases{
-    grid-template-columns: repeat(1,80%);
-    height: auto;
-    padding: 2rem 0;
-    justify-content: center;
-  }
+  
   .container-content{
     gap: 7rem;
   }
