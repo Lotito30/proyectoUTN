@@ -9,74 +9,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <!-- css NO COPIAR-->
-     <link rel="stylesheet" href="menuHamburguesa.css">
-
-     <!-- BOOTSTRAP COPIAR-->
-    <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css"
-    rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <!-- BOOTSTRAP SCRIPT COPIAR-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"
-      integrity="sha256-cAnmHNGzGYh3qfxBxQmLH50zztUGcvmws8t94f0EzJY="
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
+     
+     <!-- BOOTSTRAP COPIAR POR ENCIMA DE SU LINK DE CSS-->
+    <!-- bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <!-- BOOTSTRAP SCRIPT-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"
+    integrity="sha256-cAnmHNGzGYh3qfxBxQmLH50zztUGcvmws8t94f0EzJY=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- css NO COPIAR-->
+  <link rel="stylesheet" href="menuHamburguesa.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light navbarBaile">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img
-                  src="../imagenes/G (1)-PhotoRoom.png-PhotoRoom.png"
-                  alt="Logo"
-                  width="150"
-                  class="logo"
-                />
-              </a>
-            <button
-                class="navbar-toggler bg-light"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link text-dark" href="/index.html">opcion1</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="./page/productos.html">opcion2</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="./page/promociones.html">opcion3</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../page/inicioSesion.html">
-                      <button type="button" class="btn boton">
-                        Bailes
-                      </button>
-                    </a>
-                  </li>
-                  
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light navbarnosotros d-flex justify-content-between w-100 h-100">
+      <div class="container-fluid ">
+        <a class="navbar-brand">
+          <img src="../imagenes/G (1)-PhotoRoom.png-PhotoRoom.png" alt="Logo" />
+        </a>
+        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="./page/instalaciones.html">Instalaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-dark" href="./page/nosotrxs.html">Aranceles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-dark" href="./page/aranceles.html">Nosotrxs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-dark btn" href="./page/bailes.html">Bailes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 </body>
 </html>
