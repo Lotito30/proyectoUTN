@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <!-- BOOTSTRAP SCRIPT-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"
+        integrity="sha256-cAnmHNGzGYh3qfxBxQmLH50zztUGcvmws8t94f0EzJY=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/a42b43434c.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/instalaciones.css">
-    <title>Nosotrxs</title>
+    <title>Iniciar Sesion</title>
 </head>
+
 <body>
-    <!--Header-->
-    <header>
-        <!--Logo-->
-        <div>
-            <a href="/index.html"><img src="/imagenes/G (1)-PhotoRoom.png-PhotoRoom.png" alt="logo"></a>
-            <h1>GRUPO2 C54</h1>
+    <section>
+        <div class="conteiner">
+            <div class="conteinerContent">
+                <div class="contenidoinicioSesion">
+                    <form action="" >
+                        <label for="usuario">Usuario</label>
+                        <input type="text" id="usuario" placeholder="euclides56" autocomplete="username" autofocus>
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="password" placeholder="123456" autocomplete="current-password">
+                        <div class="botonesFormulario">
+                            <button class="submit">Iniciar</button>
+                            <a href="#"><button class="reset">Volver</button></a>
+                        </div>
+                    </form>
+                    <p>Se te olvido la contraseña?
+                        <a href="#">recuperar contraseña</a>
+                    </p>
+                    <div class="btn-redSocial">
+                        <button class="google">
+                            <i class="fa-brands fa-google"></i> 
+                            Continua con Google
+                        </button>
+
+                        <button class="fb">
+                            <a href="https://cdnlogo.com/logo/facebook_32305.html">
+                                <img
+                                    src="https://cdn.cdnlogo.com/logos/f/9/facebook.svg">
+                                </a> 
+                                Continua con Facebook
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!--Nav-->
-        <nav>
-            <ul>
-                <!--Enlaces del nav-->
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./Nosotrxs.html">Nosotrxs</a></li>
-                <li><a href="./aranceles.html">Aranceles</a></li>
-                <li class="bailes"><a href="./bailes.html">Bailes</a></li>
-            </ul>
-        </nav>
-    </header>
-<main>
-    <h1>Instalaciones</h1>
-</main>
-    <!--Footer-->
-    <footer class="footer">
-        <h3>Seguinos en nuestras redes:</h3>
-        <div class="icon-footer">
-            <a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"
-            ></i></a>
-            <a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-        </div>
-        <p>Todos los derechos reservados © 2023 Grupo 2 C54</p>
-    </footer>
+    </section>
 </body>
+
 </html>
