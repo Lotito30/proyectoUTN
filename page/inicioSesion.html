@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/a42b43434c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/inicioSesion.css">
+    <title>Iniciar Sesion</title>
+</head>
+
+<body>
+    <section>
+        <div class="conteiner">
+            <div class="conteinerContent">
+                <h1>Iniciar Sesión</h1>
+                <div class="contenidoinicioSesion">
+
+                    <form action="">
+                        <div class="absolute">
+                            <span class="icono"><i class="fas fa-user"></i></span>
+                            <input type="text" id="inputForm"  autocomplete="off">
+                            <label for="usuario">Usuario</label>
+                        </div>
+                        <div class="absolute">
+                            <span class="icono"><i class="fas fa-lock"></i></span>
+                            <input type="password" id="inputForm" autocomplete="off">
+                            <label for="password">Contraseña</label>
+                        </div>
+
+                        <button class="submit"><i class="fas fa-sign-in"></i> Iniciar</button>
+
+                    </form>
+
+                    <p>Se te olvido la contraseña?
+                        <a href="#">recuperar contraseña</a>
+                    </p>
+                    <div class="btn-redSocial">
+                        <div class="google">
+                            <img src="../imagenes/google.png" alt="">
+                            <span>Continua con Google</span>
+                        </div>
+                        <div class="fb">
+                            <img src="../imagenes/facebook.png" alt="">
+                            <span>Continua con Facebook</>
+                        </div>
+                    </div>
+
+                    <p>No tienes usuario?<a href="#">registrarse</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        const inputs = document.querySelectorAll('.absolute input');
+        inputs.forEach(input => {
+            const label = input.nextElementSibling;
+            input.addEventListener('input', () => {
+                if (input.value !== '') {
+                    label.classList.add('active');
+                } else {
+                    label.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
