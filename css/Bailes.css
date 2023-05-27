@@ -118,31 +118,36 @@ header nav ul li a:hover{
 /*Prueba5*/
 .footer{
   background: black;
-  text-align: center;
-  padding: 2% 0;
+  text-align: center; 
+  padding:2% 0;
 }
+
 .footer h3{
   color: #ffffff;
-  padding-top: 30px
+  font-size: 1.5vw;
 }
+
 .footer p{
   color: #ffffff;
-  font-size: 13px;
+  font-size: 1vw;
 }
+
 .footer a{
   text-decoration: none;
 }
+
 .icon-footer{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .fa-brands{
-  font-size: 35px; 
-  margin: 10px;
+  font-size: 2vw; 
+  margin: 1vw;
   background: #fff;
-  width: 50px;
-  height: 50px;
+  width: 3vw;
+  height: 3vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,30 +155,33 @@ header nav ul li a:hover{
 }
 
 /*Pruba Transition 2*/
-
 .fa-instagram{
   background: linear-gradient(to top right, #fcde30, #e9712a, #d2313b, #ae4198, #7540a1, #5443a8);
   color: #ffffff;
 }
+
 .fa-instagram:hover{
   color: black;
 }
+
 .fa-facebook{
   color: #1E4595;
 }
+
 .fa-facebook:hover{
   background: #1E4595;
   color: #ffffff;
 }
-.fa-twitter{
-  color: #358de6;
-  background-color: #ffffff;
-}
+
 .fa-twitter:hover{
   background: linear-gradient(to right top, #42a9ec, #358de6);
   color: #ffffff;
 }
 
+.fa-twitter{
+  color: #358de6;
+  background-color: #ffffff;
+}
 
 /*Media Queries*/
 @media (max-width:1024px){
