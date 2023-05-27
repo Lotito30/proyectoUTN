@@ -31,13 +31,7 @@ a:hover{
 }
 
 .nav-link:hover {
-  font-size: 1.5rem;
-}
-
-.boton {
-  background-color: var(--color-boton);
-  padding:.3rem 1.5rem !important;
-  border-radius: 1vw !important;
+  font-size: 1.3rem;
 }
 
 /*Prueba2*/
@@ -71,6 +65,8 @@ body h1 {
   padding: 1%;
   text-align: justify;
   font-family: 'Franklin Gothic Medium';
+  font-style: italic;
+  background-color: #42e1ecd0;
   font-size: 22px;
   }
   .container img {
