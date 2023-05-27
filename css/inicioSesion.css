@@ -20,6 +20,15 @@
     justify-content: center;
     background: rgb(0, 214, 214);
   }
+  .volver{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    
+  }
+  .volver i{
+    color: rgb(0, 0, 0);
+  }
   .circulo {
     position: absolute;
     right: 0;
@@ -188,4 +197,11 @@
   
   .btn-redSocial .fb img{
     width: 35px;
+  }
+
+  @media(max-width:1300px){
+    .circulo{
+  
+      clip-path: circle(0% at right 100%);
+    }
   }
