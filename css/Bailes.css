@@ -20,9 +20,24 @@ a:hover{
 
 /*prueba Logo*/
 .Logo {
-  width: 15%;
+  width: 12%;
   position: absolute;
-  top: 0.5vw;
+  top: 1vw;
+}
+
+/* HEADER */
+.nav-link {
+  text-align: right;
+}
+
+.nav-link:hover {
+  font-size: 1.5rem;
+}
+
+.boton {
+  background-color: var(--color-boton);
+  padding:.3rem 1.5rem !important;
+  border-radius: 1vw !important;
 }
 
 /*Prueba2*/
@@ -91,7 +106,7 @@ header nav ul {
 header nav ul li a {
   color: #000;
   text-decoration: none;
-  display: block;
+  display: inline;
   text-align: center;
   font-style: normal;
   font-size: 20px;
