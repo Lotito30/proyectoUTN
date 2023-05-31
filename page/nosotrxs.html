@@ -3,89 +3,85 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://kit.fontawesome.com/a42b43434c.js" crossorigin="anonymous"></script>
   <title>Nosotrxs</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet" />
-  <link rel="shortcut icon" href="../img/G (1)-PhotoRoom.png-PhotoRoom.png" type="image/x-icon" />
+  <!-- bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <!-- BOOTSTRAP SCRIPT-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"
     integrity="sha256-cAnmHNGzGYh3qfxBxQmLH50zztUGcvmws8t94f0EzJY=" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="../css/normalize.css" />
-  <link rel="stylesheet" href="../css/nosotrxs.css" />
+  <script src="../js/nosotrxs.js"></script>
+  <!-- VIEWPORT -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/a42b43434c.js" crossorigin="anonymous"></script>
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="../css/nosotrxs.css" />
 </head>
 
 <body>
-  <!-- Header -->
   <header>
-    <nav class="navbar navbar-expand-md navbar-light">
-      <div class="container-fluid">
-        <a href="../index.html">
-          <img src="../imagenes/G (1)-PhotoRoom.png-PhotoRoom.png" alt="Logo" width="150" class="logo" />
+    <nav class="navbar navbar-expand-md navbar-light navbarnosotros d-flex justify-content-between w-100 h-100">
+      <div class="container-fluid ">
+        <a class="navbar-brand">
+          <img src="../imagenes/G (1)-PhotoRoom.png-PhotoRoom.png" alt="Logo" />
         </a>
         <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto align-items-center">
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link text-dark" href="../index.html">Inicio</a>
+              <a class="nav-link  text-dark" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="../page/instalaciones.html">Instalaciones</a>
+              <a class="nav-link text-dark" href="./bailes.html">Bailes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="../page/aranceles.html">Aranceles</a>
+              <a class="nav-link  text-dark" href="./aranceles.html">Aranceles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../page/bailes.html">
-                <button type="button" class="btn boton">Bailes</button>
-              </a>
+              <a class="nav-link  text-dark btn" href="./inicioSesion.html">Iniciar Sesión</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-  <hr />
-  <!-- Main -->
   <main>
     <!--Seccion-1-->
     <section class="section-1">
       <!--Titulo-->
       <h2>Nosotrxs</h2>
-      <!--Parrafo-->
-      <div class="parrafos">
-        <p class="parf">
+      <!--Parrafos-->
+      <div class="item">
+        <p>
           Hemos formado no solo bailarines y profesionales en el área del
           movimiento y la comedia musical sino artistas y hermosos seres
           humanos, dentro de un clima familiar que el mismo instituto se ha
           propuesto seguir manteniendo.
         </p>
-        <p class="parf">
+        <p>
           Sostenemos como objetivo primordial brindar un espacio propicio para
           un aprendizaje integral, donde el alumno es respetado y contenido,
           en un ambiente que promueve la creatividad y la expresividad.
         </p>
       </div>
       <!--Foto-->
-      <img src="../imagenes/Nosotrxs.png" alt="Nosotrxs-img" />
-      <!--Parrafo-->
-      <div class="parrafos">
-        <p class="parf">
+      <div class="img-us">
+        <img src="../imagenes/Nosotrxs.png" alt="Nosotrxs-img" onclick="abrirImagen(this)" />
+      </div>
+      <div class="item">
+        <p>
           Muchos de nuestros egresados son profesionales en teatros, tv,
           publicidad, también docentes en nuestras y otras escuelas
           artísticas. Otros continúan acercando a sus nuevas generaciones para
           seguir sus pasos dentro del instituto.
         </p>
-        <p class="parf">
+        <p>
           Gracias a los que compartieron y comparten esta pasión por el arte,
           y a los nuevos integrantes, bienvenidos.
         </p>
@@ -100,7 +96,7 @@
       <!--Contenedor de formulario-->
       <div class="form-container">
         <!--Tittulo-->
-        <h3 class="title-form">Envianos un mensaje</h3>
+        <h3 class="title-form">Envianos un mensaje!</h3>
         <!--Formulario-->
         <form action="" class="form">
           <!--Input-1-->
@@ -114,7 +110,7 @@
             <option value="">Rosario</option>
           </select>
           <!--Input-2-->
-          <input type="tel" class="box item3" placeholder="Telefono" autocomplete="off" />
+          <input type="tel" class="box item3" placeholder="Telefono" autocomplete="off" pattern="[0-9]*" />
           <!--Select-2-->
           <select class="box item4">
             <option value="">Provincia</option>
@@ -133,10 +129,9 @@
       </div>
     </section>
     <!--Seccion-3-->
-    <section class="section-1">
-      <!--Parrafo-->
-      <div class="parrafos">
-        <p class="parf">
+    <section class="section-3">
+      <div class="item">
+        <p>
           Si te interesa formar parte de nuestro instituto podés contactarnos
           a través de nuestras redes sociales o acercandote a nuestra sede
           central ubicada en microcentro, av. Corrientes 1101, CABA. Allí se
@@ -146,10 +141,8 @@
       </div>
     </section>
   </main>
-  <!--Footer-->
   <footer class="footer">
     <h3>Seguinos en nuestras redes:</h3>
-    <!-- BOTONOES-REDES -->
     <div class="icon-footer">
       <a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
       <a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -157,6 +150,7 @@
     </div>
     <p>Todos los derechos reservados © 2023 Grupo 2 C54</p>
   </footer>
+
 </body>
 
 </html>
