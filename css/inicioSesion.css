@@ -201,7 +201,6 @@
 
   @media(max-width:1300px){
     .circulo{
-  
       clip-path: circle(0% at right 100%);
     }
   }
