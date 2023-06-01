@@ -2,41 +2,24 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
 }
-
-/*Prueba 1*/
 body {
   background-color:  rgba(0, 214,214);
 }
-
-/*Prueba Transicion 1*/
-
 a:hover{
   text-decoration: none;
-  font-size: 1.3rem;
-  font-weight: 400;
-  color: #ffffff !important; 
-}
-
-/*prueba Logo*/
-.Logo {
-  width: 40%;
-  position: sticky;
-  top: 2vw;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000 !important; 
 }
 :root {
   --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1)
 }
-
-/* HEADER */
-
 header {
   width: 100%;
   padding: .6rem 0;
   display: flex;
-  align-items: right;
+  align-items: center;
   position: fixed;
   top: 0;
   right: 0;
@@ -64,13 +47,6 @@ header {
 .nav-link:hover {
   font-size: 1.6rem;
 }
-.btn {
-  background-color: rgb(255, 184, 0);
-  width:8rem;
-  border-radius: 1.5rem;
-  margin: 0 auto;
-  color: #000 !important;
-}
 .navbar-nav{
   align-items: end;
   text-align: center;
@@ -78,12 +54,14 @@ header {
 .navbar-nav li{ 
   width: 10rem;
 }
-
-/*Prueba2*/
-/*Prueba Container*/
-
+.container {
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+}
 .container h2,h3, h4 {
-  padding: 20px;
+  margin: 2%;
+  padding: 1%;
     font-family:'Franklin Gothic Medium';
     font-size: 22px;
     line-height: 20px;
@@ -91,17 +69,15 @@ header {
     text-decoration: underline;
     text-align: center;
 }
-
 .texto {
-  margin: 6px;
-  padding: 10px;
+  margin: 1%;
+  padding: 1%;
   text-align: justify;
   font-family: 'Franklin Gothic Medium';
   font-style: italic;
   background-color: #42e1ecd0;
   font-size: 22px;
   }
-
   .container img {
     position: relative;
     padding: 10px;
@@ -111,8 +87,6 @@ header {
     border-radius: 5vw;
     background-color: rgba(148, 243, 255, 0.471);
   }
-
-/*Prueba5*/
 .footer{
   background: black;
   text-align: center; 
@@ -145,8 +119,6 @@ header {
   align-items: center;
   border-radius: 100%;
 }
-
-/*Pruba Transition 2*/
 .fa-instagram{
   background: linear-gradient(to top right, #fcde30, #e9712a, #d2313b, #ae4198, #7540a1, #5443a8);
   color: #ffffff;
@@ -169,8 +141,6 @@ header {
   color: #358de6;
   background-color: #ffffff;
 }
-
-/*Media Queries*/
 @media (max-width:1024px){
   .logo{
     width: 10%;
@@ -245,4 +215,10 @@ header {
   width: 6vw;
   height: 6vw;
  }
+ .btn {
+  background-color: rgb(255, 184, 0);
+  width:8rem;
+  border-radius: 1.5rem;
+  margin: 0 auto;
+  color: #000 !important;
 }
