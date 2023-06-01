@@ -4,6 +4,13 @@
 :root {
   --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1)
 }
+html{
+  font-size: 70%;
+  overflow-x: hidden;
+  scroll-padding-top: 5.5rem;
+  scroll-behavior: smooth;
+  min-width: 320px;
+}
 header {
   width: 100%;
   padding: .6rem 0;
@@ -46,4 +53,15 @@ header {
 }
 .navbar-nav li{ 
   width: 10rem;
+}
+
+@media(max-width:660px) {
+  html {
+    font-size: 60%;
+  }
+
+  .navbar-brand img{
+    width: 130px;
+    height: 90px;
+  }
 }
