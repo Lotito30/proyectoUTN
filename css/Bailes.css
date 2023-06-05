@@ -58,6 +58,9 @@ header {
   margin: 0 auto;
   color: #000 !important;
 }
+.btn:hover{
+  background-color: rgb(232, 167, 1);
+}
 .navbar-nav{
   align-items: end;
   text-align: center;
