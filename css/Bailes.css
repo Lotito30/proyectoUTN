@@ -162,6 +162,9 @@ header {
   html {
     font-size: 60%;
   }
+  .texto {
+    font-size: 15px;
+  }
   .navbar-brand img{
     width: 130px;
     height: 90px;
