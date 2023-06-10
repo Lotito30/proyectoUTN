@@ -1,28 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a42b43434c.js" crossorigin="anonymous"></script>
     <title>Aranceles</title>
+    <!-- bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <!-- BOOTSTRAP SCRIPT-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.1/dist/umd/popper.min.js"
+        integrity="sha256-cAnmHNGzGYh3qfxBxQmLH50zztUGcvmws8t94f0EzJY=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    
+    <!-- VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/a42b43434c.js" crossorigin="anonymous"></script>
+    <!-- CSS  -->
     <link rel="stylesheet" type="text/css" href="../css/aranceles.css">
 </head>
 <body>
     <!--Header-->
     <header>
-        <!--Logo-->
-        <img class="logo" src="../imagenes/G (1)-PhotoRoom.png-PhotoRoom.png" alt="Logo">
-        <!--Nav-->
-        <nav>
-            <ul>
-                <!--Enlaces del nav-->
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./instalaciones.html">Instalaciones</a></li>
-                <li><a href="./nosotrxs.html">Nosotrxs</a></li>
-                <li><a class="botonBailes" href="./bailes.html">Bailes</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-md navbar-light navbarnosotros d-flex justify-content-between w-100 h-100">
+          <div class="container-fluid ">
+            <a class="navbar-brand">
+              <img src="../imagenes/G (1)-PhotoRoom.png-PhotoRoom.png" alt="Logo" />
+            </a>
+            <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-dark" href="../page/bailes.html">Bailes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-dark" href="../page/nosotrxs.html">Nosotrxs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-dark btn" href="../page/inicioSesion.html">Iniciar Sesión</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-    </header>
+      </header>
     <hr/>
     <main>
     <section>
